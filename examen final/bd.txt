@@ -1,0 +1,23 @@
+
+CREATE TABLE productos (
+    id_producto INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(15),
+    fecha_ingreso DATE,
+    fecha_vencimiento DATE
+);
+
+
+CREATE TABLE trabajadores (
+    id_trabajador INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(15),
+    cargo VARCHAR(15)
+);
+
+
+CREATE TABLE proveedores (
+    id_proveedor INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_proveedor VARCHAR(55),
+    nombre_vendedor VARCHAR(55),
+    direccion VARCHAR(55),
+    telefono VARCHAR(15)
+);
